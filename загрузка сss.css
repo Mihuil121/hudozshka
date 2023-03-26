@@ -1,0 +1,168 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header {
+  background-image: url(gradient-shum-oboina-23a6562.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2rem 10rem 0px rgba(0, 0, 0, 50%);
+}
+
+.header-line {
+  background: rgba(23, 23, 23, 40%);
+  backdrop-filter: blur(50px);
+  flex-direction: row;
+  display: flex;
+  margin: 0;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 135px;
+
+  transition: color 0.2s ease;
+}
+
+.nav-item img {
+  width: 1rem;
+}
+
+.nav-item:hover {
+  color: #d0d0d0;
+}
+
+.cart {
+  position: absolute;
+  position: relative;
+  height: 45px;
+  width: auto;
+  padding-right: 10px;
+  border-right: 1px solid#fff;
+}
+
+.cart-img {
+  position: relative;
+  top: 12px;
+  right: 6px;
+}
+
+.num {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.1s linear;
+}
+
+.num:hover {
+  color: #d0d0d0;
+}
+
+.phone-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.phone-holder {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  margin-top: 3rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background: rgba(23, 23, 23, 10%);
+  padding: 1.5rem;
+  border-radius: 10px;
+  backdrop-filter: blur(50px);
+}
+
+.load-button {
+  background-color: #b22222;
+  padding: 0.2rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-size: 300;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.1s linear;
+  border-radius: 5px;
+}
+
+.load-button:hover {
+  background-color: #ff1350;
+}
+
+.form p:first-of-type {
+  margin-top: 0;
+}
+
+.form p {
+  margin: 0;
+  margin-top: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.photo input {
+  display: none;
+}
+
+.photo label {
+  display: block;
+  color: #2c2c2c;
+  background-color: #fff;
+  background-image: url("upload-solid.svg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: #9a9a9a 0.15rem solid;
+  border-radius: 10px;
+  transition: background-size 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.photo label:hover {
+  background-size: 50%;
+}
+
+.form input {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  border: #9a9a9a 0.15rem solid;
+  font-size: 0.95rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.form textarea {
+  margin-bottom: 1rem;
+  resize: none;
+  border-radius: 5px;
+  width: 15rem;
+  height: 4rem;
+  border: #9a9a9a 0.15rem solid;
+  font-size: 0.95;
+  font-family: "Roboto", sans-serif;
+}
